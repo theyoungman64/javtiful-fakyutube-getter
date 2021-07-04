@@ -1,0 +1,16 @@
+{
+    "name": "Fakyutube getter from Javtiful",
+    "description" : "Javtiful getter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {},
+    "background": {
+      "service_worker": "script.js"
+    },
+    "icons": {
+      "16": "javtiful_icon_16.png",
+      "48": "javtiful_icon_48.png",
+      "128": "javtiful_icon_128.png"
+    },
+    "permissions": ["activeTab","scripting", "tabs"]
+}
