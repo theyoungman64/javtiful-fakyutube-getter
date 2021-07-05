@@ -12,10 +12,6 @@ let fakyutubeGetter = () => {
     }
 }
 
-let updateIcon = () => {
-    console.log('update item')
-}
-
 chrome.action.onClicked.addListener((tab) => {
     chrome.scripting.executeScript({
         target: { tabId: tab.id },
